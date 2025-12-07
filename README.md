@@ -12,14 +12,14 @@ This project implements lane detection using a U-Net model.
 pip install -r requirements.txt
 ```
 
-## Train
+## Run Train, Validate & Test Pipeline
 ```
-python train.py --train_p full_CNN_train.p --labels_p full_CNN_labels.p --epochs 15 --save_path lane_unet.pth
+python runAllPipelines.py
 ```
 
 ## GUI
 ```
-python gui_pytorch.py --model lane_unet.pth
+python gui_pytorch.py 
 ```
 
 ## DataSets
